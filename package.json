@@ -1,6 +1,6 @@
 {
   "name": "apollo-client-extension",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "An extension of the Apollo Client, to allow for request timeouts, auto parsing queries and mutations, and allow for variable observations in regards to the current load status, and errors",
   "main": "lib/index.js",
   "scripts": {
@@ -49,12 +49,7 @@
   },
   "dependencies": {
     "@jostft/promise-timeout": "^0.1.0",
-    "apollo-cache-inmemory": "^1.2.10",
     "apollo-client": "^2.4.2",
-    "apollo-link": "^1.2.11",
-    "apollo-link-http": "^1.5.11",
-    "graphql": "^14.3.0",
-    "lodash": "^4.17.11",
-    "zen-observable": "^0.8.14"
+    "lodash": "^4.17.11"
   }
 }

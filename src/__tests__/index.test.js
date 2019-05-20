@@ -2,8 +2,8 @@ import _ from "lodash";
 
 class mockClass { constructor() {}};
 jest.mock("apollo-client", () => ({ ApolloClient: mockClass }));
-const ApolloClientExtent = require("../ApolloClientExtent").default; 
-const DefaultOptions = require("../ApolloClientExtent").DefaultOptions;
+const ApolloClientExtent = require("../index").default; 
+const DefaultOptions = require("../index").DefaultOptions;
 
 
 describe("ApolloClientExtent", () => {
