@@ -1,6 +1,6 @@
 {
   "name": "apollo-client-extension",
-  "version": "0.0.5",
+  "version": "1.0.0",
   "description": "An extension of the Apollo Client, to allow for request timeouts, auto parsing queries and mutations, and allow for variable observations in regards to the current load status, and errors",
   "main": "lib/index.js",
   "scripts": {

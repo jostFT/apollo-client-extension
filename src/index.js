@@ -119,7 +119,7 @@ export default class ApolloClientExtent extends ApolloClient {
     async mutate(request, options = {}) {
         let ops = this.getOptions(options);
         if (!ops.subData) ops.subData = request.mutation.definitions[0].name.value;
-        return await this.execute(super.query(request), ops.subData, options);
+        return await this.execute(super.mutate(request), ops.subData, options);
     }
 
     async mutateTry(request, options = {}) {
